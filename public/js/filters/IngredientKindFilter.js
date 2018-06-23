@@ -1,6 +1,6 @@
-angular.module('IngredientKindFilter', []).filter('kind', [ingredientKindFilter]);
+angular.module('IngredientKindFilter', []).filter('kind', [IngredientKindFilter]);
 
-function ingredientKindFilter() {
+function IngredientKindFilter() {
 
     function findIngredientKind(ingredientId, ingredients, groupName) {
         var itemsInGroup = getItemsFromGroup(ingredients, groupName);
