@@ -1,6 +1,6 @@
 {
   "name": "MyBar-client",
-  "version": "0.0.2-develop",
+  "version": "0.1-release",
   "description": "Amazing REST client for 'MyBar' application",
   "main": "public/index.html, public/js/app.js, public/css/main.css",
   "moduleType": [],

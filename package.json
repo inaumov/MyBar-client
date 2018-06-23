@@ -1,6 +1,6 @@
 {
   "name": "my-bar-web-client",
-  "version": "0.1-develop",
+  "version": "0.1-release",
   "description": "Amazing REST client for 'MyBar' application",
   "main": "server.js",
   "scripts": {

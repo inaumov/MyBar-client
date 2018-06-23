@@ -10,13 +10,13 @@
         "GENERAL_CONFIG": {
             "APP_NAME": "My Bar",
             "APP_VERSION": "0.1",
-            "BASE_URL": "http://localhost:8089/mybar-web/api"
+            "BASE_URL": "http://localhost:8089/dev/mybar/api"
         }
     },
     "release": {
         "GENERAL_CONFIG": {
             "APP_NAME": "My Bar",
-            "APP_VERSION": "0.1.20170831",
+            "APP_VERSION": "0.1.20180623",
             "BASE_URL": "http://mybar/api",
             "debugInfoEnabled": false
         }
