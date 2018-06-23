@@ -109,7 +109,7 @@
             <span>Reset</span>
         </button>
         <input type="submit" class="btn btn-primary"
-               ng-disabled="CocktailForm.$invalid || CocktailForm.$pristine || cocktailCtrl.hasIngredients(cocktailCtrl.cocktail)"
+               ng-disabled="CocktailForm.$invalid || CocktailForm.$pristine || !cocktailCtrl.hasIngredients(cocktailCtrl.cocktail)"
                value="{{!cocktailCtrl.cocktail.id ? 'Add' : 'Update'}}"/>
     </div>
 </form>
