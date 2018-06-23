@@ -36,7 +36,7 @@
         </tr>
         </thead>
         <tbody>
-        <tr class="text-right" ng-repeat="item in shelfCtrl.itemsInShelf | orderBy:['inShelf']">
+        <tr class="text-right" ng-repeat="item in shelfCtrl.itemsInShelf | orderBy:['-inShelf']">
             <td>
                 <img class="img-responsive" ng-src="{{item.imageUrl || 'img/blank.gif'}}"
                                       ng-class="{true: '', false: 'no-available'}[!!item.imageUrl]"/>
