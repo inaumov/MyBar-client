@@ -22,8 +22,8 @@ function ShelfController(beverages, MyBarService, Notification, $timeout, $locat
     }
 
     vm.getIngredientKind = function (id) {
-        for (var i = 0; i < vm.beverages.length; i++) {
-            var ingredient = vm.beverages[i];
+        for (var i = 0; i < vm.beverages.items.length; i++) {
+            var ingredient = vm.beverages.items[i];
             if (ingredient.id === id) {
                 return ingredient.kind;
             }
